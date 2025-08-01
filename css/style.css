@@ -81,8 +81,8 @@ h3::after {
     top: 45px;
     right: 590px;
 }
-/* cards */
-.cards {
+
+.body {
     width: 50%;
     margin: 50px 328px 0;
     border: 3px solid var(--yellow);
@@ -90,43 +90,34 @@ h3::after {
     background-color: #f0c56934;
 }
 
-.card {
-    margin-bottom: 20px;
-    background: transparent;
-    border: none;
-    position: relative;
-    z-index: 2;
-}
-
 h1 {
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 30px;
 }
-.num h5 {
-    margin-right: 50px;
+
+table {
+    width: 100%;
+    margin: 20px auto ;
+    border: 1px solid black;
 }
-.number p {
+th {
+    padding: 10px;
     text-align: center;
-    margin-right: 49px;
-    width: 50px;
-}
-
-
-.head {
+    border: 1px solid black;
     background-color: var(--blue);
     color: white;
-    padding: 2px 20px;
 }
-.head h5 {
+td {
+    padding: 5px;
+    text-align: center;
     font-weight: 400;
-    margin-top: 3px;
-}
-.body {
-    padding: 20px;
+    font-size: 15;
     color: black;
 }
-
+tr:nth-child(even) {
+    background-color: #3f51b533;
+}
 
 footer {
     padding: 15px 0 0;
@@ -216,44 +207,20 @@ hr {
         right: 85px;
     }
 
-    .cards {
-        margin: 50px auto 30px;
-        width: 90%; 
-        background-color: #f0c56967;
+    .body {
+    width: 95%;
+    margin: 50px auto;
+    padding: 5px;
     }
 
     h1 {
         font-size: 20px;
-        margin-bottom: 15px;
-        margin-right: -10px;
-    }
-    h5 {
-        font-size: 12px;
-        margin-top: 5PX;
+        margin: 10px 0;
     }
 
-    .num h5 {
-        margin-right: 26px;
+    td {
+        font-size: 15px;
     }
-    .number p {
-        width: 28px;
-    }
-    .number .pr {
-        margin-left: -20PX;
-    }
-    .number .u {
-        margin-left: -20px;
-    }
-
-    .head {
-        padding: 0 10px;
-    }
-    .body {
-        font-size: 10px;
-        font-weight: 600;
-        margin-right: -10px;
-    }
-
 
     footer {
         padding: 0;
@@ -331,43 +298,20 @@ hr {
         right: 116px;
     }
 
-    .cards {
-        margin: 50px auto 30px;
-        width: 90%; 
-        background-color: #f0c56993;
+    .body {
+    width: 95%;
+    margin: 50px auto;
+    padding: 5px;
     }
 
     h1 {
         font-size: 20px;
-        margin-bottom: 15px;
-        margin-right: -10px;
+        margin: 10px 0;
     }
-    h5 {
+
+    td {
         font-size: 15px;
-        margin-top: 5PX;
     }
-
-    .num h5 {
-        margin-right: 37px;
-    }
-    .number p {
-        width: 35px;
-    }
-    .number .pr {
-        margin-left: -20PX;
-    }
-    .number .u {
-        margin-left: -20px;
-    }
-
-    .head {
-        padding: 0 10px;
-    }
-    .body {
-        font-size: 12px;
-        margin-right: -10px;
-    }
-
 
     footer {
         padding: 0;
@@ -445,44 +389,21 @@ hr {
         right: 140px;
     }
 
-    .cards {
-        margin: 50px auto 30px;
-        width: 90%; 
-        background-color: #f0c56993;
+    .body {
+    width: 90%;
+    margin: 50px auto;
+    padding: 10px;
     }
 
     h1 {
         font-size: 20px;
-        margin-bottom: 15px;
-        margin-right: -10px;
-    }
-    h5 {
-        font-size: 15px;
-        font-weight: 600 !important;
-        margin-top: 5PX;
+        margin: 10px 0;
     }
 
-    .num h5 {
-        margin-right: 26px;
+    td {
+        font-size: 17px;
+        font-size: 400;
     }
-    .number p {
-        width: 42px;
-    }
-    .number .pr {
-        margin-left: -23px;
-    }
-    .number .u {
-        margin-left: -30px;
-    }
-
-    .head {
-        padding: 0 10px;
-    }
-    .body {
-        font-size: 15px;
-        margin-right: -10px;
-    }
-
 
     footer {
         padding: 0;
@@ -561,44 +482,23 @@ hr {
         right: 312px;
     }
 
-    .cards {
-        margin: 50px auto 30px;
-        width: 90%; 
-        background-color: #f0c56993;
+    .body {
+    width: 90%;
+    margin: 50px auto;
     }
 
     h1 {
+        font-size: 25px;
+        margin: 10px;
+    }
+
+    td {
+        font-size: 23px;
+    }
+
+    th {
         font-size: 20px;
-        margin-bottom: 15px;
-        margin-right: -10px;
     }
-    h5 {
-        font-size: 18px;
-        font-weight: 600 !important;
-        margin-top: 5PX;
-    }
-
-    .num h5 {
-        margin-right: 26px;
-    }
-    .number p {
-        width: 42px;
-    }
-    .number .pr {
-        margin-left: -23px;
-    }
-    .number .u {
-        margin-left: -18px;
-    }
-
-    .head {
-        padding: 0 10px;
-    }
-    .body {
-        font-size: 15px;
-        margin-right: -10px;
-    }
-
 
     footer {
         padding: 0;
@@ -635,3 +535,4 @@ hr {
         padding-bottom: 3px;
     }
 }
+
