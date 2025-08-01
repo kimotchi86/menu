@@ -64,45 +64,36 @@ function displayGyps(filteredGyps) {
     gyps.innerHTML = ""; 
     filteredGyps.forEach(product => {
         gyps.innerHTML += `
-            <div class="one d-flex justify-content-between">
-                <p>${product.name}</p>
-                <div class="number d-flex">
-                    <p class="u">${product.unit}</p>
-                    <p class="pr">${product.price}</p>
-                </div>
-                </div>
-                
-        `;
+            <tr>
+                <td>${product.name}</td>
+                <td>${product.unit}</td>
+                <td>${product.price}</td>
+            </tr>
+        `
     });
 }
 function displayM3dn(filteredM3dn) {
     m3dn.innerHTML = ""; 
     filteredM3dn.forEach(product => {
         m3dn.innerHTML += `
-            <div class="one d-flex justify-content-between">
-                <p>${product.name}</p>
-                <div class="number d-flex">
-                    <p class="u">${product.unit}</p>
-                    <p class="pr">${product.price}</p>
-                </div>
-            </div>
-            
-        `;
+            <tr>
+                <td>${product.name}</td>
+                <td>${product.unit}</td>
+                <td>${product.price}</td>
+            </tr>
+        `
     })
 }
 function displayAcc(filteredAcc) {
     acc.innerHTML = ""; 
     filteredAcc.forEach(product => {
         acc.innerHTML += `
-            <div class="one d-flex justify-content-between">
-                <p>${product.name}</p>
-                <div class="number d-flex">
-                    <p class="u">${product.unit}</p>
-                    <p class="pr">${product.price}</p>
-                </div>
-            </div>
-            
-        `;
+            <tr>
+                <td>${product.name}</td>
+                <td>${product.unit}</td>
+                <td>${product.price}</td>
+            </tr>
+        `
     });
 }
 
