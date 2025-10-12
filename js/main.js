@@ -7,7 +7,7 @@ let productsOne = [
     { id: 2, name: "   جبس أبيض كناوف 2.50 م", unit: "لوح", price: 280},
     { id: 3, name: "  جبس أخضر كناوف ", unit: "لوح", price: 415},
     { id: 4, name: "جبس أحمر كناوف", unit: "لوح", price: 415},
-    { id: 5, name: "جبس أبيض جي بورد", unit: "لوح", price: 265},
+    { id: 5, name: "جبس أبيض جي بورد", unit: "لوح", price: 280},
     { id: 6, name: "جبس أخضر جي بورد", unit: "لوح", price: 370},
     { id: 7, name: "جبس أحمر جي بورد", unit: "لوح", price: 370}
 ];
@@ -100,4 +100,5 @@ function displayAcc(filteredAcc) {
 displayGyps(productsOne);
 displayM3dn(productsTwo);
 displayAcc(productsThree);
+
 
