@@ -3,13 +3,13 @@ let m3dn = document.querySelector('.product2');
 let acc = document.querySelector('.product3');
 
 let productsOne = [
-    { id: 1, name: "   جبس أبيض كناوف 3 م", unit: "لوح", price: 335},
-    { id: 2, name: "   جبس أبيض كناوف 2.50 م", unit: "لوح", price: 280},
-    { id: 3, name: "  جبس أخضر كناوف ", unit: "لوح", price: 415},
-    { id: 4, name: "جبس أحمر كناوف", unit: "لوح", price: 415},
+    { id: 1, name: "   جبس أبيض كناوف 3 م", unit: "لوح", price: 350},
+    { id: 2, name: "   جبس أبيض كناوف 2.50 م", unit: "لوح", price: 290},
+    { id: 3, name: "  جبس أخضر كناوف ", unit: "لوح", price: 450},
+    { id: 4, name: "جبس أحمر كناوف", unit: "لوح", price: 450},
     { id: 5, name: "جبس أبيض جي بورد", unit: "لوح", price: 280},
-    { id: 6, name: "جبس أخضر جي بورد", unit: "لوح", price: 370},
-    { id: 7, name: "جبس أحمر جي بورد", unit: "لوح", price: 370}
+    { id: 6, name: "جبس أخضر جي بورد", unit: "لوح", price: 380},
+    { id: 7, name: "جبس أحمر جي بورد", unit: "لوح", price: 380}
 ];
 
 let productsTwo = [
@@ -19,9 +19,9 @@ let productsTwo = [
     { id: 11, name: " زاوية 33", unit: "عود", price: 17},
     { id: 12, name: " أوميجا 33", unit: "عود", price: 34},
     { id: 13, name: " سي 33", unit: "عود", price: 25.5},
-    { id: 14, name: " زاوية 35", unit: "عود", price: 19},
-    { id: 15, name: " أوميجا 35", unit: "عود", price: 38},
-    { id: 16, name: " سي 35", unit: "عود", price: 29},
+    { id: 14, name: " زاوية 35", unit: "عود", price: 20},
+    { id: 15, name: " أوميجا 35", unit: "عود", price: 40},
+    { id: 16, name: " سي 35", unit: "عود", price: 30},
     { id: 17, name: " زاوية 4", unit: "عود", price: 22},
     { id: 18, name: " أوميجا 4", unit: "عود", price: 44},
     { id: 19, name: " سي 4", unit: "عود", price: 33},
@@ -31,9 +31,9 @@ let productsTwo = [
     { id: 23, name: "  ناعم 7 سم سمك 0.4", unit: "عود", price: 65}
 ]
 let productsThree = [
-    { id: 24, name: " ميتال", unit: "بكرة", price: 110},
+    { id: 24, name: " ميتال", unit: "بكرة", price: 100},
     { id: 25, name: " فايبر", unit: "بكرة", price: 70},
-    { id: 26, name: " معجون كناوف", unit: "شيكارة", price: 85},
+    { id: 26, name: " معجون كناوف", unit: "شيكارة", price: 90},
     { id: 27, name: " معجون اكسترا فيل", unit: "شيكارة", price: 70},
     { id: 28, name: " معجون ايزي فيل", unit: "شيكارة", price: 130},
     { id: 29, name: " مسمار 25 كيلو", unit: "علبة", price: 100},
@@ -100,5 +100,6 @@ function displayAcc(filteredAcc) {
 displayGyps(productsOne);
 displayM3dn(productsTwo);
 displayAcc(productsThree);
+
 
 
