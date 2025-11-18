@@ -3,8 +3,8 @@ let m3dn = document.querySelector('.product2');
 let acc = document.querySelector('.product3');
 
 let productsOne = [
+   { id: 2, name: "   جبس أبيض بلاكو 3 م", unit: "لوح", price: 330},
     { id: 1, name: "   جبس أبيض كناوف 3 م", unit: "لوح", price: 355},
-    { id: 2, name: "   جبس أبيض بلاكو 3 م", unit: "لوح", price: 330},
     { id: 3, name: "  جبس أخضر كناوف ", unit: "لوح", price: 450},
     { id: 4, name: "جبس أحمر كناوف", unit: "لوح", price: 450},
     { id: 5, name: "جبس أبيض جي بورد", unit: "لوح", price: 280},
@@ -100,6 +100,7 @@ function displayAcc(filteredAcc) {
 displayGyps(productsOne);
 displayM3dn(productsTwo);
 displayAcc(productsThree);
+
 
 
 
