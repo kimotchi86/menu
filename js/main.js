@@ -3,11 +3,10 @@ let m3dn = document.querySelector('.product2');
 let acc = document.querySelector('.product3');
 
 let productsOne = [
-   { id: 2, name: "   جبس أبيض بلاكو 3 م", unit: "لوح", price: 330},
-    { id: 1, name: "   جبس أبيض كناوف 3 م", unit: "لوح", price: 355},
-    { id: 3, name: "  جبس أخضر كناوف ", unit: "لوح", price: 450},
-    { id: 4, name: "جبس أحمر كناوف", unit: "لوح", price: 450},
-    { id: 5, name: "جبس أبيض جي بورد", unit: "لوح", price: 280},
+    { id: 1, name: "   جبس أبيض كناوف 3 م", unit: "لوح", price: 345},
+    { id: 3, name: "  جبس أخضر كناوف ", unit: "لوح", price: 440},
+    { id: 4, name: "جبس أحمر كناوف", unit: "لوح", price: 440},
+    { id: 5, name: "جبس أبيض جي بورد", unit: "لوح", price: 285},
     { id: 6, name: "جبس أخضر جي بورد", unit: "لوح", price: 380},
     { id: 7, name: "جبس أحمر جي بورد", unit: "لوح", price: 380}
 ];
@@ -32,8 +31,8 @@ let productsTwo = [
 ]
 let productsThree = [
     { id: 24, name: " ميتال", unit: "بكرة", price: 100},
-    { id: 25, name: " فايبر", unit: "بكرة", price: 70},
-    { id: 26, name: " معجون كناوف", unit: "شيكارة", price: 90},
+    { id: 25, name: " فايبر", unit: "بكرة", price: 75},
+    { id: 26, name: " معجون كناوف", unit: "شيكارة", price: 100},
     { id: 27, name: " معجون اكسترا فيل", unit: "شيكارة", price: 70},
     { id: 28, name: " معجون ايزي فيل", unit: "شيكارة", price: 130},
     { id: 29, name: " مسمار 25 كيلو", unit: "علبة", price: 100},
@@ -55,9 +54,9 @@ let productsThree = [
     { id: 45, name: " صامولة ", unit: "كجم", price: 90},
     { id: 46, name: " سلك", unit: "كجم", price: 90},
     { id: 47, name: " كورنير", unit: "زاوية", price: 23},
-    { id: 48, name: " اكسسوار", unit: "متر", price: 45},
-    { id: 49, name: " بلاطات ديكوراما 7 مم", unit: "متر", price: 135},
-    { id: 50, name: " بلاطات سادة 7 مم", unit: "متر", price: 135},
+    { id: 48, name: " اكسسوار", unit: "متر", price: 50},
+    { id: 49, name: " بلاطات ديكوراما 7 مم", unit: "متر", price: 125},
+    { id: 50, name: " بلاطات سادة 7 مم", unit: "متر", price: 125},
 ]
 
 function displayGyps(filteredGyps) {
@@ -100,6 +99,7 @@ function displayAcc(filteredAcc) {
 displayGyps(productsOne);
 displayM3dn(productsTwo);
 displayAcc(productsThree);
+
 
 
 
