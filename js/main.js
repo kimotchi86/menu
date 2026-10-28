@@ -3,7 +3,7 @@ let m3dn = document.querySelector('.product2');
 let acc = document.querySelector('.product3');
 
 let productsOne = [
-    { id: 1, name: "   جبس أبيض كناوف 3 م", unit: "لوح", price: 440},
+    { id: 1, name: "   جبس أبيض كناوف 3 م", unit: "لوح", price: 450},
     { id: 3, name: "  جبس أخضر كناوف ", unit: "لوح", price: 500},
     { id: 4, name: "جبس أحمر كناوف", unit: "لوح", price: 500},
     { id: 5, name: "جبس أبيض جي بورد", unit: "لوح", price: 340},
@@ -43,12 +43,12 @@ let productsThree = [
     { id: 34, name: " مسمار تخويش", unit: "علبة", price: 140},
     { id: 35, name: " مسمار جنش", unit: "علبة", price: 75},
     { id: 36, name: " أكمن مستورد", unit: "علبة", price: 130},
-    { id: 37, name: " فيشر", unit: "علبة", price: 6},
+    { id: 37, name: " فيشر", unit: "علبة", price: 7},
     { id: 38, name: " تيش 6 مم مستورد", unit: "عود", price: 25},
     { id: 39, name: " تيش 8 مم مستورد", unit: "عود", price: 35},
     { id: 40, name: " كورنر بيد", unit: "عود", price: 28},
     { id: 41, name: " اند بيد", unit: "عود", price: 29},
-    { id: 42, name: "  شادو جاب", unit: "عود", price: 100},
+    { id: 42, name: "  شادوجاب", unit: "عود", price: 100},
     { id: 43, name: " عصفورة U", unit: "عدد", price: 1.75},
     { id: 44, name: " عصفورة L", unit: "عدد", price: 4},
     { id: 45, name: " صامولة ", unit: "كجم", price: 100},
@@ -57,6 +57,9 @@ let productsThree = [
     { id: 48, name: " اكسسوار", unit: "متر", price: 55},
     { id: 49, name: " بلاطات ديكوراما 7 مم", unit: "متر", price: 145},
     { id: 50, name: " بلاطات سادة 7 مم", unit: "متر", price: 150},
+    { id: 42, name: " شادو ليد", unit: "عود", price: 300},
+    { id: 42, name: "  تراك ستارة 3 متر", unit: "عود", price: 400},
+    { id: 42, name: "  ماجنتك تراك 3 متر", unit: "عود", price: 700},
 ]
 
 function displayGyps(filteredGyps) {
