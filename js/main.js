@@ -49,7 +49,7 @@ let productsThree = [
     { id: 40, name: " كورنر بيد", unit: "عود", price: 28},
     { id: 41, name: " اند بيد", unit: "عود", price: 29},
     { id: 42, name: "  شادوجاب", unit: "عود", price: 100},
-    { id: 43, name: " عصفورة U", unit: "عدد", price: 1.75},
+    { id: 43, name: " عصفورة U", unit: "عدد", price: 2},
     { id: 44, name: " عصفورة L", unit: "عدد", price: 4},
     { id: 45, name: " صامولة ", unit: "كجم", price: 100},
     { id: 46, name: " سلك", unit: "كجم", price: 90},
